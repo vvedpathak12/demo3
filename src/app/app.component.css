@@ -1,0 +1,101 @@
+.header-top{
+    background-color: #002147;
+    padding: 8px 0px 8px 0px;
+}
+
+.header-top-left p {
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    margin: 5px 0px 0px 50px;
+}
+
+.header-top-right a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.header-top-right span{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    margin: 5px 50px 0px 0px;
+}
+
+.header-top-right span a:hover{
+    color: gold;
+    transition: 0.5s;
+}
+
+
+/* navbar */
+
+.nav-1{
+    margin: 35px 0px 30px 0px;
+    padding: 0px 0px 0px 60px;
+}
+
+.nav-2{
+    margin: 25px 0px 30px 0px;
+}
+
+.nav-anchor a:hover{
+    color: gold;
+
+}
+
+
+/* footer */
+
+.footer-section{
+    background-color: #002147;
+}
+
+
+.footer-icons a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.footer-icons a:hover {
+    color: gold;
+    transition: 0.5s;
+    
+}
+
+.f-content-1 i{
+    color: #ffff;
+    font-size: 17px;
+}
+
+
+.f-content-2 a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.f-content-2 a:hover {
+  color: gold;
+  transition: 1s;
+}
+
+.f-content-3 img{
+    flex-wrap: wrap;
+    display: inline-flex;
+    padding: 6px;
+}
+
+
+.footer-section{
+    padding: 90px 0px 90px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.f-content-4{
+    background-color: #002147;
+}
+

@@ -1,0 +1,30 @@
+
+.form1{
+    background-color: #FAF371;
+    border: 3px solid #002147;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+.heading-1{
+    background-color: #002147;
+    color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.btn-1{
+    background-color: #002147;
+    color: #ffff;
+    border: none;
+    border-radius: 6%;
+    padding: 10px 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+
+.tble{
+    background-color: #002147;
+    color: #ffff;
+}

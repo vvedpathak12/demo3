@@ -1,0 +1,290 @@
+
+.about-para{
+    line-height: 26px;
+    color: #4D4B49;
+    font-size: 14px;
+    margin: 0px 0px 0px -40px;
+}
+
+.about-heading{
+    color: #4D4B49;
+    margin: 30px 20px 25px -40px;
+}
+
+
+.about-study-section{
+    margin: 50px 0px 50px 50px;
+    padding: 50px 0px 50px 30px;
+}
+
+.btn-1{
+    margin: 30px 0px 0px -40px;
+    padding: 8px 40px;
+    background-color: #002147;
+    color: #ffff;
+    border: none;
+}
+
+.btn-1:hover{
+    color: black;
+    background-color: gold;
+    transition: 0.4s ease;
+}
+
+
+.dep-heading{
+    font-size: 30px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.dep-para{
+    font-weight: 400;
+    text-align: center;
+}
+
+.dep-content1{
+    margin: 50px 0px 30px 0px;
+    padding:50px 0px 30px 0px;
+}
+
+
+.dep-section{
+    background-color: #F5F5F5;
+}
+
+.dep-cards{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-h1{
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.card-h1:hover{
+   color: gold;
+   transition: 0.4s ease;
+}
+
+.card-h2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.card-h2:hover{
+    color: gold;
+    transition: 0.4s ease;
+}
+
+.cards{
+    margin: 15px;
+    box-shadow: grey 2px 0px 10px -2px;
+}
+
+.cards:hover{
+    box-shadow: grey -1px 0px 17px -1px;
+    transition: 0.3s ease;
+}
+
+.img-wrap{
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-section{
+    margin-bottom: 50px;
+}
+
+.events-heading{
+    font-size: 30px;
+    line-height: 22px;
+    margin: 50px 0px 20px 0px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.events-para{
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+.event-content-1{
+    position: relative;
+    bottom: 20%;
+    left: 10%;
+}
+
+.event-content-1 i{
+    color: #ffff;
+}
+
+.event-content-1 a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.event-content-1 a:hover{
+    color: gold;
+    transition: 0.4s ease;
+}
+
+.news-heading{
+    font-size: 30px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.news-para{
+    font-weight: 400;
+    text-align: center;
+}
+.news-cards{
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+
+.news-anchor{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.news-anchor:hover{
+    color: gold;
+    transition: 0.4s ease;
+}
+
+/* slider */
+
+.slider-img1{
+    display: block;
+    background: rgba(0, 0, 0 ,0.5) url(../../assets/images/2.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height:650px;
+}
+
+.slider-img2{
+    display: block;
+    background: rgba(0, 0, 0 ,0.5) url(../../assets/images/1.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height:650px;
+}
+
+
+.slider-content-1{
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    z-index: 1000;
+}
+
+.slider-content-2{
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    z-index: 10;
+}
+
+
+.slider-heading-1 {
+    font-size: 50px;
+}
+
+.slider-heading-2{
+    font-size: 50px;
+}
+
+
+.btn-2{
+    background-color: transparent;
+    border: 2px solid #ffff;
+    padding: 8px 35px 8px 35px;
+    color: #ffff;
+}
+
+.btn-2:hover{
+    background-color: gold;
+    color: black;
+    padding: 8px 35px 8px 35px;
+    border: none;
+    transition: 0.6s ease;
+}
+
+.btn-3{
+    background-color: transparent;
+    border: 2px solid #ffff;
+    padding: 8px 35px 8px 35px;
+    color: #ffff;
+}
+
+.btn-3:hover{
+    background-color: gold;
+    color: black;
+    padding: 8px 35px 8px 35px;
+    border: none;
+    transition: 0.6s ease;
+}
+
+
+/* slider-2 */
+
+.slider2-img{
+    display: block;
+    background: rgba(30, 57, 89, 0.7) url(../../assets/images/testimonial.webp);
+    background-blend-mode: darken;
+    background-size:cover;
+    opacity: 1;
+    height: 350px;
+    width: 100%;
+}
+
+
+.slider2-content1{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    color: #ffff;
+}
+
+.slider2-content2{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    color: #ffff;
+}
+
+.slider2-content3{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    color: #ffff;
+}

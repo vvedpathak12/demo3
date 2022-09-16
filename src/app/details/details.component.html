@@ -1,0 +1,50 @@
+
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-1"></div>
+    
+        <div class="col-md-10">
+
+            <div class="details">
+                <div class="fs-1 fw-bold p-2 text-success text-center">
+                    Details
+                    <span class="float-end">
+                        <button (click)="addData()" pButton type="button"  class="p-button-info p-button-rounded p-button-raised border border-1 border-dark ">Add Details </button>
+                    </span>
+                </div>
+            </div>
+    
+            <table class="table table-bordered table-responsive table-stripped tble">
+    
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Emp Id</th>
+                    <th>Branch</th>
+                    <th>Role</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                
+                <tr *ngFor="let dt of empdata">
+                    <td>{{dt.id}}</td>
+                    <td>{{dt.name}}</td>
+                    <td>{{dt.age}}</td>
+                    <td>{{dt.empId}}</td>
+                    <td>{{dt.branch}}</td>
+                    <td>{{dt.role}}</td>
+                    <td><button pButton type="button"  class="p-button-warning" value="edit" (click)="onEdit(dt.id , dt)" >Edit</button></td>
+                    <td><button pButton type="button"  class="p-button-danger" value="delete" (click)="onDelete(dt.id)">Delete</button></td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="col-md-1"></div>
+    
+    </div>
+    
+</div>

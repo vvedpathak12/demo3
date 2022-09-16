@@ -1,0 +1,40 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 pb-5">
+            <div class="updates">
+                <div class="container updateform w-50  pt-4 pb-5">
+
+                    <h4 class="text-white fs-1 text-center"><b>Edit Data</b></h4>
+                    <form [formGroup]="updateFrm" (ngSubmit)="onSubmit123()">
+                        <div class="form-group text-white pb-2">
+                            <label for="">Name :<span style="color: red;"> *</span></label>
+                            <input type="text" class="form-control" name="" id="" formControlName="name">
+                        </div>
+
+                        <div class="form-group text-white pb-2">
+                            <label for="">Age :<span style="color: red;"> *</span></label>
+                            <input type="number" class="form-control" name="" id="" formControlName="age" >
+                        </div>
+                        
+                        <div class="form-group text-white pb-2">
+                            <label for="">Emp-ID :<span style="color: red;"> *</span></label>
+                            <input type="number" class="form-control" name="" id="" formControlName="empId">
+                        </div>
+                        
+                        <div class="form-group text-white pb-2">
+                            <label for="">Branch :<span style="color: red;"> *</span></label>
+                            <input type="text" class="form-control" name="" id="" formControlName="branch">
+                        </div>
+                        <div class="form-group text-white pb-2">
+                            <label for="">Role :<span style="color: red;"> *</span></label>
+                            <input type="text" class="form-control py-2 px-5 me-4 mt-3" name="" id="" formControlName="role" >
+                        </div>
+                        <button type="submit" name="" id=""  class="btn btn-1 mt-3 px-5 py-2  " value="Update Data">Update Data</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
